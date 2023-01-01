@@ -1,5 +1,5 @@
 /*
- * auto_ptr.h
+ * auto_ptr.cc
  *
  *  Author: Erwin
  */
