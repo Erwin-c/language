@@ -15,8 +15,8 @@ int main() {
     cout << *i << endl;
   }
 
-  auto w = std::make_unique<int>(10);
-  cout << *(w.get()) << endl;
+  auto w = make_unique<int>(10);
+  cout << *w.get() << endl;
   // error: use of deleted function.
   // auto w2 = w;
 
